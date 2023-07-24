@@ -15,9 +15,9 @@ public partial class PersonelBilgileriDbContext : DbContext
     }
 
 
-    public virtual DbSet<Maas> Maas { get; set; }
+    public virtual DbSet<Maas> Maaslar { get; set; }
 
-    public virtual DbSet<Personel> Personel { get; set; }
+    public virtual DbSet<Personel> Personeller { get; set; }
 
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => optionsBuilder.UseSqlServer("Server=.\\SQLEXPRESS;Database=PersonelBilgileriDB;trusted_connection=true;trustservercertificate=true;");

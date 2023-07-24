@@ -12,11 +12,11 @@ namespace PersonelWinForms
             InitializeComponent();
         }
 
-        private void PersonelListFrom_Load(object sender, EventArgs e)
+        private void PersonelListForm_Load(object sender, EventArgs e)
         {
             try
             {
-               
+
                 PersonelList();
             }
             catch (Exception exp)
@@ -28,10 +28,11 @@ namespace PersonelWinForms
 
         void PersonelList()
         {
-            List<Personel> personelListesi = _db.Personel.ToList();
+            List<Personel> personelListesi = _db.Personeller.ToList();
             dgvPersonel.DataSource = personelListesi;
+
         }
 
-       
+        
     }
 }

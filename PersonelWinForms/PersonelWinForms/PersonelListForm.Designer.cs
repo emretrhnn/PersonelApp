@@ -36,7 +36,7 @@
             // 
             dgvPersonel.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvPersonel.EditMode = DataGridViewEditMode.EditProgrammatically;
-            dgvPersonel.Location = new Point(12, 12);
+            dgvPersonel.Location = new Point(12, 67);
             dgvPersonel.MultiSelect = false;
             dgvPersonel.Name = "dgvPersonel";
             dgvPersonel.RowTemplate.Height = 25;
